@@ -8,7 +8,7 @@ urlpatterns = [
         name="cinema-list"
     ),
     path(
-        "cinema/movies/<int:pk>",
+        "cinema/movies/<int:pk>/",
         views.cinema_detail,
         name="cinema-detail"
     ),
